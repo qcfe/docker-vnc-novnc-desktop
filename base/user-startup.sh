@@ -1,7 +1,7 @@
 #!/bin/bash -xe
 
 # vnc server startup
-vncserver :0 -SecurityTypes None
+vncserver $DISPLAY -SecurityTypes None
 
 #kill the vncconfig windows that shows up with no particular reason
 sleep 1

@@ -4,4 +4,4 @@
 
 
 # usermode init
-su -p $USER --command "bash /opt/base/user-startup.sh"
+su -p $USER --command "cd ; bash /opt/base/user-startup.sh"

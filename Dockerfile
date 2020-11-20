@@ -2,10 +2,9 @@ FROM ubuntu:20.04
 
 ### Connection ports
 ENV DISPLAY=:0 \
-    NO_VNC_PORT=8080
-
-### Envrionment config
-ENV USER=vncuser \
+    NO_VNC_PORT=8080 \
+    INTERNAL_VNC_PORT=5900 \
+    USER=vncuser \
     HOME=/home/vncuser \
     ROOT_WORKDIR=/opt/base \
     DEBIAN_FRONTEND=noninteractive
