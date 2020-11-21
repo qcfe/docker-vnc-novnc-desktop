@@ -54,9 +54,11 @@ session.screen0.workspaceNames: Workspace 1
 session.doubleClickInterval:    250
 session.cacheMax:       200
 session.keyFile:        ~/.fluxbox/keys
+session.styleFile:      ~/.fluxbox/politheme
 session.forcePseudoTransparency:        false
 session.colorsPerChannel:       4
 session.autoRaiseDelay: 250
 session.cacheLife:      5
 session.ignoreBorder:   false
 session.configVersion:  13
+session.screen0.rootCommand: fbsetbg -f ~/opt/crownexam.png
