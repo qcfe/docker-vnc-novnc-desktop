@@ -30,7 +30,7 @@ RUN locale-gen en_US.UTF-8
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
 COPY fluxbox $HOME/.fluxbox
-
+COPY vncIndex.html /usr/share/novnc/index.html
 COPY base /opt/base
 
 ### Creating User for the docker environment
